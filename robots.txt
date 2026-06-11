@@ -1,0 +1,17 @@
+# SoireeWeb — robots.txt
+# Wedding Coordination & Event Planning — Philippines
+# https://www.soireeweb.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any in future)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://www.soireeweb.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10

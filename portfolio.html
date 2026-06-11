@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — SoireeWeb Wedding Coordination Philippines</title>
+  <meta name="description" content="Browse SoireeWeb's wedding portfolio: church weddings, garden weddings, beach weddings, destination weddings, and reception styling across the Philippines." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.soireeweb.com/portfolio.html" />
+  <meta property="og:title" content="Wedding Portfolio — SoireeWeb Philippines" />
+  <meta property="og:description" content="Browse our collection of beautifully coordinated weddings across the Philippines." />
+  <meta property="og:url" content="https://www.soireeweb.com/portfolio.html" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ivory:'#FFFFF0', champagne:'#F7E7CE', gold:'#C9A84C', 'gold-dark':'#A8893C',
+            'gold-light':'#E8D5A3', rose:'#D4849A', 'rose-light':'#F2E0E5',
+            sage:'#8FAF8F', 'sage-light':'#D4E8D4', 'soft-gray':'#F5F5F5',
+            'dark':'#2C2C2C', 'dark-soft':'#3D3D3D',
+          },
+          fontFamily: { heading:['"Playfair Display"','Georgia','serif'], body:['Poppins','system-ui','sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+  <div id="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav id="main-nav" aria-label="Main navigation">
+    <div class="container">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="nav-logo">Soiree<span>Web</span></a>
+        <ul class="hidden lg:flex items-center gap-8" role="list">
+          <li><a href="index.html"        class="nav-link">Home</a></li>
+          <li><a href="about.html"        class="nav-link">About</a></li>
+          <li><a href="services.html"     class="nav-link">Services</a></li>
+          <li><a href="packages.html"     class="nav-link">Packages</a></li>
+          <li><a href="portfolio.html"    class="nav-link">Portfolio</a></li>
+          <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+          <li><a href="faq.html"          class="nav-link">FAQ</a></li>
+          <li><a href="contact.html"      class="nav-link">Contact</a></li>
+        </ul>
+        <div class="flex items-center gap-4">
+          <a href="contact.html" class="btn-nav-cta hidden lg:inline-flex">Book Consultation</a>
+          <button id="hamburger" class="hamburger lg:hidden" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+      <div id="mobile-menu">
+        <ul role="list" class="flex flex-col gap-1 mb-4">
+          <li><a href="index.html"        class="mobile-nav-link">Home</a></li>
+          <li><a href="about.html"        class="mobile-nav-link">About</a></li>
+          <li><a href="services.html"     class="mobile-nav-link">Services</a></li>
+          <li><a href="packages.html"     class="mobile-nav-link">Packages</a></li>
+          <li><a href="portfolio.html"    class="mobile-nav-link">Portfolio</a></li>
+          <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+          <li><a href="faq.html"          class="mobile-nav-link">FAQ</a></li>
+          <li><a href="contact.html"      class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary w-full text-center" style="display:flex;">Book a Consultation</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1920&q=85&fit=crop');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="text-gold-light text-sm font-semibold tracking-widest uppercase mb-3">Our Work</p>
+      <h1 class="page-hero-title">Wedding Portfolio</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span aria-current="page">Portfolio</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- GALLERY SECTION -->
+  <section class="section-pad bg-white" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="text-gold text-sm font-semibold tracking-widest uppercase mb-3 animate-on-scroll">Browse Our Work</p>
+        <h2 class="section-title animate-on-scroll delay-1" id="gallery-title">Love Stories We've <em class="italic">Crafted</em></h2>
+        <div class="divider-line mx-auto mt-4 mb-6 animate-on-scroll delay-2"></div>
+        <p class="section-subtitle animate-on-scroll delay-3">Each image represents a couple's unique story, brought to life with care, creativity, and our signature touch of elegance.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter animate-on-scroll" role="group" aria-label="Filter gallery by category">
+        <button class="filter-btn active" data-filter="all">All Weddings</button>
+        <button class="filter-btn" data-filter="church">Church Weddings</button>
+        <button class="filter-btn" data-filter="garden">Garden Weddings</button>
+        <button class="filter-btn" data-filter="beach">Beach Weddings</button>
+        <button class="filter-btn" data-filter="destination">Destination</button>
+        <button class="filter-btn" data-filter="reception">Reception Styling</button>
+      </div>
+
+      <!-- Masonry Gallery -->
+      <div class="masonry-grid" id="portfolio-gallery">
+
+        <!-- Item 1 - Church -->
+        <div class="masonry-item" data-category="church"
+          data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&q=85&fit=crop"
+          data-couple="Sofia & Miguel" data-date="March 2025">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80&fit=crop"
+            alt="Sofia and Miguel church wedding ceremony in Manila" loading="lazy" width="600" height="800" />
+          <span class="gallery-category-tag">Church Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content">
+              <h4>Sofia &amp; Miguel</h4>
+              <p>Manila · March 2025</p>
+            </div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 2 - Garden -->
+        <div class="masonry-item" data-category="garden"
+          data-src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=1200&q=85&fit=crop"
+          data-couple="Isabella & James" data-date="February 2025">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600&q=80&fit=crop"
+            alt="Isabella and James garden wedding in Tagaytay" loading="lazy" width="600" height="450" />
+          <span class="gallery-category-tag">Garden Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Isabella &amp; James</h4><p>Tagaytay · Feb 2025</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 3 - Beach -->
+        <div class="masonry-item" data-category="beach"
+          data-src="https://images.unsplash.com/photo-1583939411023-14783179e581?w=1200&q=85&fit=crop"
+          data-couple="Maria & Lorenzo" data-date="January 2025">
+          <img src="https://images.unsplash.com/photo-1583939411023-14783179e581?w=600&q=80&fit=crop"
+            alt="Maria and Lorenzo beach wedding in Boracay" loading="lazy" width="600" height="900" />
+          <span class="gallery-category-tag">Beach Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Maria &amp; Lorenzo</h4><p>Boracay · Jan 2025</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 4 - Reception -->
+        <div class="masonry-item" data-category="reception"
+          data-src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=1200&q=85&fit=crop"
+          data-couple="Clara & Antonio" data-date="December 2024">
+          <img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=600&q=80&fit=crop"
+            alt="Clara and Antonio grand reception styling in BGC" loading="lazy" width="600" height="400" />
+          <span class="gallery-category-tag">Reception Styling</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Clara &amp; Antonio</h4><p>BGC · Dec 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 5 - Destination -->
+        <div class="masonry-item" data-category="destination"
+          data-src="https://images.unsplash.com/photo-1530023367847-a683933f4172?w=1200&q=85&fit=crop"
+          data-couple="Elena & Rafael" data-date="November 2024">
+          <img src="https://images.unsplash.com/photo-1530023367847-a683933f4172?w=600&q=80&fit=crop"
+            alt="Elena and Rafael destination wedding in Palawan" loading="lazy" width="600" height="750" />
+          <span class="gallery-category-tag">Destination</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Elena &amp; Rafael</h4><p>Palawan · Nov 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 6 - Garden -->
+        <div class="masonry-item" data-category="garden"
+          data-src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1200&q=85&fit=crop"
+          data-couple="Sophia & Marco" data-date="October 2024">
+          <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=600&q=80&fit=crop"
+            alt="Sophia and Marco garden ceremony in Batangas" loading="lazy" width="600" height="480" />
+          <span class="gallery-category-tag">Garden Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Sophia &amp; Marco</h4><p>Batangas · Oct 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 7 - Church -->
+        <div class="masonry-item" data-category="church"
+          data-src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=85&fit=crop"
+          data-couple="Ana & Paolo" data-date="September 2024">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80&fit=crop"
+            alt="Ana and Paolo's elegant church wedding ceremony" loading="lazy" width="600" height="900" />
+          <span class="gallery-category-tag">Church Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Ana &amp; Paolo</h4><p>Cebu · Sep 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 8 - Reception -->
+        <div class="masonry-item" data-category="reception"
+          data-src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=1200&q=85&fit=crop"
+          data-couple="Carmen & Diego" data-date="August 2024">
+          <img src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=600&q=80&fit=crop"
+            alt="Carmen and Diego luxurious reception table styling" loading="lazy" width="600" height="400" />
+          <span class="gallery-category-tag">Reception Styling</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Carmen &amp; Diego</h4><p>Makati · Aug 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 9 - Beach -->
+        <div class="masonry-item" data-category="beach"
+          data-src="https://images.unsplash.com/photo-1487530811015-780eaf08d3b0?w=1200&q=85&fit=crop"
+          data-couple="Luna & Marco" data-date="July 2024">
+          <img src="https://images.unsplash.com/photo-1487530811015-780eaf08d3b0?w=600&q=80&fit=crop"
+            alt="Luna and Marco sunset beach wedding in Siargao" loading="lazy" width="600" height="850" />
+          <span class="gallery-category-tag">Beach Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Luna &amp; Marco</h4><p>Siargao · Jul 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 10 - Destination -->
+        <div class="masonry-item" data-category="destination"
+          data-src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1200&q=85&fit=crop"
+          data-couple="Rosa & Luca" data-date="June 2024">
+          <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80&fit=crop"
+            alt="Rosa and Luca's destination wedding in El Nido" loading="lazy" width="600" height="600" />
+          <span class="gallery-category-tag">Destination</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Rosa &amp; Luca</h4><p>El Nido · Jun 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 11 - Garden -->
+        <div class="masonry-item" data-category="garden"
+          data-src="https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=1200&q=85&fit=crop"
+          data-couple="Bianca & Carlo" data-date="May 2024">
+          <img src="https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=600&q=80&fit=crop"
+            alt="Bianca and Carlo romantic floral garden ceremony" loading="lazy" width="600" height="400" />
+          <span class="gallery-category-tag">Garden Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Bianca &amp; Carlo</h4><p>Antipolo · May 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+        <!-- Item 12 - Church -->
+        <div class="masonry-item" data-category="church"
+          data-src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=1200&q=85&fit=crop"
+          data-couple="Camille & Andrei" data-date="April 2024">
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=600&q=80&fit=crop"
+            alt="Camille and Andrei's beautiful church wedding" loading="lazy" width="600" height="700" />
+          <span class="gallery-category-tag">Church Wedding</span>
+          <div class="masonry-overlay">
+            <div class="masonry-overlay-content"><h4>Camille &amp; Andrei</h4><p>Davao · Apr 2024</p></div>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></div>
+        </div>
+
+      </div><!-- /.masonry-grid -->
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-nav" id="lightbox-prev" aria-label="Previous">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="Wedding photo" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-nav" id="lightbox-next" aria-label="Next">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-section section-pad">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto relative z-10">
+        <h2 class="font-heading text-4xl font-bold text-dark mb-6 animate-on-scroll">
+          Love What You See? <em class="italic text-rose">Let's Create Yours.</em>
+        </h2>
+        <p class="text-dark-soft text-lg leading-relaxed mb-8 animate-on-scroll delay-1">
+          Each wedding in our portfolio started with a couple's dream and a conversation with our team. Your love story deserves the same beautiful treatment.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center animate-on-scroll delay-2">
+          <a href="contact.html" class="btn btn-primary btn-lg">Start Planning Today</a>
+          <a href="packages.html" class="btn btn-outline-gold btn-lg">View Packages</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer aria-label="Site footer">
+    <div class="footer-top py-16">
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div class="lg:col-span-1">
+            <a href="index.html" class="footer-logo">Soiree<span>Web</span></a>
+            <p class="footer-tagline mt-1 mb-6">Where Love Becomes Legend</p>
+            <div class="social-links mt-6">
+              <a href="https://www.facebook.com/soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a href="https://www.instagram.com/soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="https://www.tiktok.com/@soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-6.34 6.33 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.19a8.16 8.16 0 0 0 4.77 1.52V7.27a4.85 4.85 0 0 1-1-.58z"/></svg></a>
+            </div>
+          </div>
+          <div><h3 class="footer-heading">Quick Links</h3><nav><a href="index.html" class="footer-link">Home</a><a href="about.html" class="footer-link">About Us</a><a href="services.html" class="footer-link">Services</a><a href="packages.html" class="footer-link">Packages</a><a href="portfolio.html" class="footer-link">Portfolio</a><a href="testimonials.html" class="footer-link">Testimonials</a><a href="faq.html" class="footer-link">FAQ</a><a href="contact.html" class="footer-link">Contact Us</a></nav></div>
+          <div><h3 class="footer-heading">Gallery Categories</h3><nav><button class="footer-link text-left w-full bg-transparent border-none cursor-pointer" onclick="document.querySelector('[data-filter=church]').click()">Church Weddings</button><button class="footer-link text-left w-full bg-transparent border-none cursor-pointer" onclick="document.querySelector('[data-filter=garden]').click()">Garden Weddings</button><button class="footer-link text-left w-full bg-transparent border-none cursor-pointer" onclick="document.querySelector('[data-filter=beach]').click()">Beach Weddings</button><button class="footer-link text-left w-full bg-transparent border-none cursor-pointer" onclick="document.querySelector('[data-filter=destination]').click()">Destination Weddings</button><button class="footer-link text-left w-full bg-transparent border-none cursor-pointer" onclick="document.querySelector('[data-filter=reception]').click()">Reception Styling</button></nav></div>
+          <div><h3 class="footer-heading">Get In Touch</h3><address style="font-style:normal;"><div class="footer-contact-item"><svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>123 Elegance Avenue, BGC<br/>Taguig, Metro Manila 1634</span></div><div class="footer-contact-item"><svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:hello@soireeweb.com">hello@soireeweb.com</a></div></address></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom py-6"><div class="container"><div class="flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm" style="color:rgba(255,255,255,0.4);">&copy; <span id="footer-year"></span> SoireeWeb. All rights reserved.</p><div class="flex gap-6"><a href="#" class="footer-link text-xs">Privacy Policy</a><a href="sitemap.xml" class="footer-link text-xs">Sitemap</a></div></div></div></div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
