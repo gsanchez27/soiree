@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>SoireeWeb — Professional Wedding Coordination & Event Planning in the Philippines</title>
+  <meta name="description" content="SoireeWeb is a premium wedding coordination and event planning company in the Philippines. We create unforgettable celebrations tailored to your love story. Book a consultation today." />
+  <meta name="keywords" content="wedding coordinator Philippines, wedding planner Manila, event planning Philippines, bridal coordinator, wedding stylist, destination wedding Philippines, SoireeWeb" />
+  <meta name="author" content="SoireeWeb" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.soireeweb.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SoireeWeb — Professional Wedding Coordination in the Philippines" />
+  <meta property="og:description" content="Creating unforgettable wedding celebrations with elegance, professionalism, and heart. Your dream wedding starts here." />
+  <meta property="og:image" content="https://www.soireeweb.com/assets/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.soireeweb.com/" />
+  <meta property="og:site_name" content="SoireeWeb" />
+  <meta property="og:locale" content="en_PH" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SoireeWeb — Wedding Coordination Philippines" />
+  <meta name="twitter:description" content="Premium wedding coordination and event planning in the Philippines." />
+  <meta name="twitter:image" content="https://www.soireeweb.com/assets/images/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>" />
+
+  <!-- Preconnect for Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ivory:     '#FFFFF0',
+            champagne: '#F7E7CE',
+            gold:      '#C9A84C',
+            'gold-dark':'#A8893C',
+            'gold-light':'#E8D5A3',
+            'dusty-rose':'#C4A0A0',
+            rose:      '#D4849A',
+            'rose-light':'#F2E0E5',
+            sage:      '#8FAF8F',
+            'sage-light':'#D4E8D4',
+            'soft-gray':'#F5F5F5',
+            'dark':    '#2C2C2C',
+            'dark-soft':'#3D3D3D',
+          },
+          fontFamily: {
+            heading: ['"Playfair Display"', 'Georgia', 'serif'],
+            body:    ['Poppins', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Structured Data: Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EventPlanner",
+    "name": "SoireeWeb",
+    "description": "Professional wedding coordination and event planning company in the Philippines, creating unforgettable celebrations tailored to each couple's love story.",
+    "url": "https://www.soireeweb.com",
+    "telephone": "+63-917-555-0123",
+    "email": "hello@soireeweb.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Elegance Avenue, BGC",
+      "addressLocality": "Taguig",
+      "addressRegion": "Metro Manila",
+      "postalCode": "1634",
+      "addressCountry": "PH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "14.5547",
+      "longitude": "121.0509"
+    },
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "priceRange": "₱₱₱",
+    "image": "https://www.soireeweb.com/assets/images/og-image.jpg",
+    "sameAs": [
+      "https://www.facebook.com/soireeweb",
+      "https://www.instagram.com/soireeweb",
+      "https://www.tiktok.com/@soireeweb"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "500",
+      "bestRating": "5"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav id="main-nav" aria-label="Main navigation">
+    <div class="container">
+      <div class="flex items-center justify-between">
+
+        <!-- Logo -->
+        <a href="index.html" class="nav-logo" aria-label="Soiree PH Home">
+          Soiree<span>ETC</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <ul class="hidden lg:flex items-center gap-8" role="list">
+          <li><a href="index.html"        class="nav-link">Home</a></li>
+          <li><a href="about.html"        class="nav-link">About</a></li>
+          <li><a href="services.html"     class="nav-link">Services</a></li>
+          <li><a href="packages.html"     class="nav-link">Packages</a></li>
+          <li><a href="portfolio.html"    class="nav-link">Portfolio</a></li>
+          <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+          <li><a href="faq.html"          class="nav-link">FAQ</a></li>
+          <li><a href="contact.html"      class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- CTA + Mobile Toggle -->
+        <div class="flex items-center gap-4">
+          <a href="contact.html" class="btn-nav-cta hidden lg:inline-flex">
+            Book Consultation
+          </a>
+          <button
+            id="hamburger"
+            class="hamburger lg:hidden"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+        <ul role="list" class="flex flex-col gap-1 mb-4">
+          <li><a href="index.html"        class="mobile-nav-link">Home</a></li>
+          <li><a href="about.html"        class="mobile-nav-link">About</a></li>
+          <li><a href="services.html"     class="mobile-nav-link">Services</a></li>
+          <li><a href="packages.html"     class="mobile-nav-link">Packages</a></li>
+          <li><a href="portfolio.html"    class="mobile-nav-link">Portfolio</a></li>
+          <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+          <li><a href="faq.html"          class="mobile-nav-link">FAQ</a></li>
+          <li><a href="contact.html"      class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary w-full text-center" style="display:flex;">
+          Book a Consultation
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero" aria-label="Hero — Creating unforgettable wedding celebrations">
+
+    <!-- Background Image -->
+    <div
+      class="hero-bg"
+      style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=85&fit=crop');"
+      role="img"
+      aria-label="Elegant wedding ceremony with floral decorations"
+    ></div>
+
+    <!-- Overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content animate-on-scroll">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Premium Wedding Coordination — Philippines
+      </div>
+
+      <h1 class="hero-title">
+        Creating <em>Unforgettable</em><br />Wedding Celebrations
+      </h1>
+
+      <p class="hero-subtitle">
+        Professional Wedding Coordination and Event Planning in the Philippines.
+        We turn your dream into a breathtaking reality — from intimate ceremonies
+        to grand celebrations.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="contact.html" class="btn btn-primary btn-lg pulse-ring">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+          Book a Consultation
+        </a>
+        <a href="portfolio.html" class="btn btn-secondary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          View Portfolio
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US
+       ============================================================ -->
+  <section class="section-pad bg-white" aria-labelledby="why-title">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <p class="text-gold font-body text-sm font-semibold tracking-widest uppercase mb-3 animate-on-scroll">Why SoireeWeb</p>
+        <h2 class="section-title animate-on-scroll delay-1" id="why-title">
+          Your Love Story Deserves<br />
+          <em class="italic text-rose">the Very Best</em>
+        </h2>
+        <div class="divider-line mx-auto mt-4 mb-6 animate-on-scroll delay-2"></div>
+        <p class="section-subtitle animate-on-scroll delay-3">
+          We go beyond coordination. We craft experiences that reflect who you are as a couple — with professionalism, passion, and meticulous attention to detail.
+        </p>
+      </div>
+
+      <!-- Feature Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- Card 1 -->
+        <div class="feature-card animate-on-scroll delay-1">
+          <div class="feature-icon icon-gold" aria-hidden="true">🏆</div>
+          <h3 class="font-heading text-xl font-semibold text-dark mb-3">Experienced Coordinators</h3>
+          <p class="text-sm text-dark-soft leading-relaxed">Our team brings 10+ years of wedding expertise, having coordinated over 500 celebrations across the Philippines.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card animate-on-scroll delay-2">
+          <div class="feature-icon icon-rose" aria-hidden="true">💖</div>
+          <h3 class="font-heading text-xl font-semibold text-dark mb-3">Personalized Planning</h3>
+          <p class="text-sm text-dark-soft leading-relaxed">Every wedding is unique. We create bespoke plans tailored to your vision, culture, and budget — no cookie-cutter celebrations.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card animate-on-scroll delay-3">
+          <div class="feature-icon icon-sage" aria-hidden="true">🤝</div>
+          <h3 class="font-heading text-xl font-semibold text-dark mb-3">Trusted Vendor Network</h3>
+          <p class="text-sm text-dark-soft leading-relaxed">Access our curated network of 150+ trusted photographers, florists, caterers, and venues — the best in the Philippines.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card animate-on-scroll delay-4">
+          <div class="feature-icon icon-ivory" aria-hidden="true">✨</div>
+          <h3 class="font-heading text-xl font-semibold text-dark mb-3">Stress-Free Wedding Day</h3>
+          <p class="text-sm text-dark-soft leading-relaxed">On your big day, you focus on love. We handle every detail — timelines, vendor coordination, and unexpected surprises.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED SERVICES
+       ============================================================ -->
+  <section class="section-pad bg-soft-gray" aria-labelledby="services-title">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <p class="text-gold font-body text-sm font-semibold tracking-widest uppercase mb-3 animate-on-scroll">What We Offer</p>
+        <h2 class="section-title animate-on-scroll delay-1" id="services-title">
+          Our Signature <em class="italic">Services</em>
+        </h2>
+        <div class="divider-line mx-auto mt-4 mb-6 animate-on-scroll delay-2"></div>
+        <p class="section-subtitle animate-on-scroll delay-3">
+          From intimate gatherings to grand celebrations, our comprehensive wedding services are designed to make your journey to "I Do" seamless and joyful.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+
+        <!-- Service 1 -->
+        <div class="service-card animate-on-scroll delay-1">
+          <div class="service-card-header">
+            <div class="service-card-icon" aria-hidden="true">💍</div>
+            <div>
+              <span class="badge badge-gold mb-2">Full Service</span>
+              <h3 class="font-heading text-lg font-semibold text-dark">Full Wedding Planning</h3>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <p class="text-sm text-dark-soft leading-relaxed">Complete end-to-end wedding management from engagement to honeymoon. We handle every detail so you can savour every moment.</p>
+            <ul class="service-feature-list">
+              <li>Venue sourcing & booking</li>
+              <li>Vendor management</li>
+              <li>Budget planning</li>
+              <li>Full-day coordination</li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <a href="services.html" class="btn btn-outline-gold btn-sm w-full text-center" style="display:flex;">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card animate-on-scroll delay-2">
+          <div class="service-card-header">
+            <div class="service-card-icon" aria-hidden="true">📋</div>
+            <div>
+              <span class="badge badge-rose mb-2">Day-Of</span>
+              <h3 class="font-heading text-lg font-semibold text-dark">Wedding Day Coordination</h3>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <p class="text-sm text-dark-soft leading-relaxed">Professional management during your wedding day. We execute your vision flawlessly, so you're present in every beautiful moment.</p>
+            <ul class="service-feature-list">
+              <li>Timeline management</li>
+              <li>Vendor liaison</li>
+              <li>Emergency handling</li>
+              <li>Guest coordination</li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <a href="services.html" class="btn btn-outline-gold btn-sm w-full text-center" style="display:flex;">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card animate-on-scroll delay-3">
+          <div class="service-card-header">
+            <div class="service-card-icon" aria-hidden="true">🌸</div>
+            <div>
+              <span class="badge badge-sage mb-2">Styling</span>
+              <h3 class="font-heading text-lg font-semibold text-dark">Event Styling</h3>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <p class="text-sm text-dark-soft leading-relaxed">Transform your venue into a breathtaking dreamscape. Our stylists create cohesive, magazine-worthy aesthetics for your celebration.</p>
+            <ul class="service-feature-list">
+              <li>Theme conceptualization</li>
+              <li>Floral arrangements</li>
+              <li>Décor installation</li>
+              <li>Lighting design</li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <a href="services.html" class="btn btn-outline-gold btn-sm w-full text-center" style="display:flex;">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card animate-on-scroll delay-4">
+          <div class="service-card-header">
+            <div class="service-card-icon" aria-hidden="true">🏨</div>
+            <div>
+              <span class="badge badge-outline mb-2">Vendors</span>
+              <h3 class="font-heading text-lg font-semibold text-dark">Vendor Management</h3>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <p class="text-sm text-dark-soft leading-relaxed">Leverage our trusted network of 150+ vetted vendors. We source, negotiate, and coordinate all suppliers to deliver your vision.</p>
+            <ul class="service-feature-list">
+              <li>Curated recommendations</li>
+              <li>Contract negotiation</li>
+              <li>Supplier coordination</li>
+              <li>Payment tracking</li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <a href="services.html" class="btn btn-outline-gold btn-sm w-full text-center" style="display:flex;">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-12 animate-on-scroll">
+        <a href="services.html" class="btn btn-primary btn-lg">
+          Explore All Services
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED PORTFOLIO
+       ============================================================ -->
+  <section class="section-pad bg-white" aria-labelledby="portfolio-title">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <p class="text-gold font-body text-sm font-semibold tracking-widest uppercase mb-3 animate-on-scroll">Our Work</p>
+        <h2 class="section-title animate-on-scroll delay-1" id="portfolio-title">
+          Love Stories We've <em class="italic">Crafted</em>
+        </h2>
+        <div class="divider-line mx-auto mt-4 mb-6 animate-on-scroll delay-2"></div>
+        <p class="section-subtitle animate-on-scroll delay-3">
+          Each wedding we coordinate is a unique masterpiece. Browse a selection of our most treasured celebrations.
+        </p>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Portfolio Item 1 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-1"
+          data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&q=85&fit=crop"
+          data-couple="Sofia & Miguel"
+          data-date="March 2025"
+          style="aspect-ratio:4/3;"
+          role="button"
+          tabindex="0"
+          aria-label="View Sofia & Miguel's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80&fit=crop"
+            alt="Sofia and Miguel's elegant church wedding in Manila"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy"
+            width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Sofia &amp; Miguel</h4>
+              <p class="text-gold-light text-sm">Church Wedding · Manila · March 2025</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4">
+            <span class="gallery-category-tag">Church Wedding</span>
+          </div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-2"
+          data-src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=1200&q=85&fit=crop"
+          data-couple="Isabella & James"
+          data-date="February 2025"
+          style="aspect-ratio:4/3;"
+          role="button" tabindex="0"
+          aria-label="View Isabella & James's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=800&q=80&fit=crop"
+            alt="Isabella and James's romantic garden wedding"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy" width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Isabella &amp; James</h4>
+              <p class="text-gold-light text-sm">Garden Wedding · Tagaytay · Feb 2025</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4"><span class="gallery-category-tag">Garden Wedding</span></div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-3"
+          data-src="https://images.unsplash.com/photo-1583939411023-14783179e581?w=1200&q=85&fit=crop"
+          data-couple="Maria & Lorenzo"
+          data-date="January 2025"
+          style="aspect-ratio:4/3;"
+          role="button" tabindex="0"
+          aria-label="View Maria & Lorenzo's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1583939411023-14783179e581?w=800&q=80&fit=crop"
+            alt="Maria and Lorenzo's dreamy beach wedding in Boracay"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy" width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Maria &amp; Lorenzo</h4>
+              <p class="text-gold-light text-sm">Beach Wedding · Boracay · Jan 2025</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4"><span class="gallery-category-tag">Beach Wedding</span></div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 4 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-4"
+          data-src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=1200&q=85&fit=crop"
+          data-couple="Clara & Antonio"
+          data-date="December 2024"
+          style="aspect-ratio:4/3;"
+          role="button" tabindex="0"
+          aria-label="View Clara & Antonio's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=800&q=80&fit=crop"
+            alt="Clara and Antonio's grand ballroom reception"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy" width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Clara &amp; Antonio</h4>
+              <p class="text-gold-light text-sm">Reception Styling · BGC · Dec 2024</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4"><span class="gallery-category-tag">Reception Styling</span></div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 5 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-5"
+          data-src="https://images.unsplash.com/photo-1530023367847-a683933f4172?w=1200&q=85&fit=crop"
+          data-couple="Elena & Rafael"
+          data-date="November 2024"
+          style="aspect-ratio:4/3;"
+          role="button" tabindex="0"
+          aria-label="View Elena & Rafael's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1530023367847-a683933f4172?w=800&q=80&fit=crop"
+            alt="Elena and Rafael's destination wedding in Palawan"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy" width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Elena &amp; Rafael</h4>
+              <p class="text-gold-light text-sm">Destination Wedding · Palawan · Nov 2024</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4"><span class="gallery-category-tag">Destination</span></div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 6 -->
+        <div
+          class="featured-gallery-item relative rounded-2xl overflow-hidden cursor-pointer group animate-on-scroll delay-6"
+          data-src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1200&q=85&fit=crop"
+          data-couple="Sophia & Marco"
+          data-date="October 2024"
+          style="aspect-ratio:4/3;"
+          role="button" tabindex="0"
+          aria-label="View Sophia & Marco's wedding photo"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80&fit=crop"
+            alt="Sophia and Marco's romantic garden ceremony"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy" width="800" height="600"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <h4 class="font-heading text-white text-xl mb-1">Sophia &amp; Marco</h4>
+              <p class="text-gold-light text-sm">Garden Ceremony · Batangas · Oct 2024</p>
+            </div>
+          </div>
+          <div class="absolute top-4 left-4"><span class="gallery-category-tag">Garden Wedding</span></div>
+          <div class="masonry-zoom-btn" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-12 animate-on-scroll">
+        <a href="portfolio.html" class="btn btn-primary btn-lg">
+          View Full Portfolio
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS SECTION
+       ============================================================ -->
+  <section class="stats-section py-20" aria-label="Our achievements">
+    <div class="container">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 items-center">
+
+        <div class="stat-item animate-on-scroll delay-1">
+          <div class="stat-number" data-counter data-target="500" data-suffix="+">0+</div>
+          <div class="stat-label">Weddings Coordinated</div>
+        </div>
+
+        <div class="stat-item animate-on-scroll delay-2">
+          <div class="stat-number" data-counter data-target="98" data-suffix="%">0%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+
+        <div class="stat-item animate-on-scroll delay-3">
+          <div class="stat-number" data-counter data-target="150" data-suffix="+">0+</div>
+          <div class="stat-label">Partner Vendors</div>
+        </div>
+
+        <div class="stat-item animate-on-scroll delay-4">
+          <div class="stat-number" data-counter data-target="10" data-suffix="+">0+</div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS CAROUSEL
+       ============================================================ -->
+  <section class="section-pad bg-soft-gray" aria-labelledby="testimonials-title">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <p class="text-gold font-body text-sm font-semibold tracking-widest uppercase mb-3 animate-on-scroll">Love Notes</p>
+        <h2 class="section-title animate-on-scroll delay-1" id="testimonials-title">
+          What Our Couples <em class="italic">Say</em>
+        </h2>
+        <div class="divider-line mx-auto mt-4 mb-6 animate-on-scroll delay-2"></div>
+        <p class="section-subtitle animate-on-scroll delay-3">
+          Nothing makes us prouder than hearing from our couples. Here's what they have to say about their SoireeWeb experience.
+        </p>
+      </div>
+
+      <!-- Carousel -->
+      <div class="testimonials-carousel animate-on-scroll" aria-label="Client testimonials">
+        <div class="testimonials-track">
+
+          <!-- Testimonial 1 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"SoireeWeb made our dream wedding a reality. Every detail was perfect — from the flowers to the timeline. They handled everything with such grace and professionalism. We didn't have to worry about anything!"</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80" alt="Sofia Reyes" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Sofia & Miguel Reyes</div>
+                  <div class="testimonial-meta">Church Wedding · Manila · March 2025</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"The best investment we made for our wedding! Our coordinator kept everything running smoothly. Our Tagaytay garden ceremony was absolutely magical — beyond anything we imagined."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&h=100&fit=crop&q=80" alt="Isabella Cruz" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Isabella & James Cruz</div>
+                  <div class="testimonial-meta">Garden Wedding · Tagaytay · Feb 2025</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"We had our destination wedding in Palawan and SoireeWeb made every logistical challenge disappear. Their vendor network in the islands is exceptional. Worth every peso!"</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80" alt="Elena Santos" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Elena & Rafael Santos</div>
+                  <div class="testimonial-meta">Destination Wedding · Palawan · Nov 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"From our first consultation to the final dance, SoireeWeb was with us every step. Our beach wedding in Boracay was stunning. The styling exceeded every expectation we had."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&q=80" alt="Maria Dela Cruz" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Maria & Lorenzo Dela Cruz</div>
+                  <div class="testimonial-meta">Beach Wedding · Boracay · Jan 2025</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 5 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"Absolutely phenomenal team! They took our vision of a rustic-elegant celebration and brought it to life perfectly. Our guests are still talking about our reception months later!"</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&q=80" alt="Clara Mendoza" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Clara & Antonio Mendoza</div>
+                  <div class="testimonial-meta">Grand Reception · BGC · Dec 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 6 -->
+          <div class="testimonial-slide px-3">
+            <div class="testimonial-card">
+              <div class="star-rating" aria-label="5 out of 5 stars">
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-text">"Professional, creative, and incredibly kind. SoireeWeb understood our vision from the very first meeting. Our intimate 50-person wedding felt as grand as any ballroom celebration."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80" alt="Sophia Garcia" class="testimonial-avatar" loading="lazy" width="52" height="52" />
+                <div>
+                  <div class="testimonial-name">Sophia & Marco Garcia</div>
+                  <div class="testimonial-meta">Intimate Garden · Batangas · Oct 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.testimonials-track -->
+      </div><!-- /.testimonials-carousel -->
+
+      <!-- Carousel Controls -->
+      <div class="carousel-controls">
+        <button class="carousel-btn prev" aria-label="Previous testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="carousel-dots" role="tablist" aria-label="Testimonial pages"></div>
+        <button class="carousel-btn next" aria-label="Next testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <div class="text-center mt-10 animate-on-scroll">
+        <a href="testimonials.html" class="btn btn-outline-gold">Read All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA SECTION
+       ============================================================ -->
+  <section class="cta-section section-pad" aria-label="Call to action">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto relative z-10">
+        <p class="text-gold font-body text-sm font-semibold tracking-widest uppercase mb-4 animate-on-scroll">Begin Your Journey</p>
+        <h2 class="font-heading text-4xl md:text-5xl font-bold text-dark mb-6 animate-on-scroll delay-1">
+          Let's Create Your <em class="italic text-rose">Dream Wedding</em> Together
+        </h2>
+        <p class="text-dark-soft text-lg leading-relaxed mb-10 animate-on-scroll delay-2">
+          Ready to start planning the most beautiful day of your life? Let's connect and turn your vision into an unforgettable celebration.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center animate-on-scroll delay-3">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Book a Consultation
+          </a>
+          <a href="packages.html" class="btn btn-outline-gold btn-lg">
+            View Packages
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer aria-label="Site footer">
+
+    <div class="footer-top py-16">
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+          <!-- Brand Column -->
+          <div class="lg:col-span-1">
+            <a href="index.html" class="footer-logo" aria-label="SoireeWeb Home">
+              Soiree<span>ETC</span>
+            </a>
+            <p class="footer-tagline mt-1 mb-6">Where Love Becomes Legend</p>
+            <p class="text-sm" style="color:rgba(255,255,255,0.55);line-height:1.8;">
+              Premium wedding coordination and event planning in the Philippines. Creating unforgettable celebrations since 2015.
+            </p>
+            <div class="social-links mt-6">
+              <a href="https://www.facebook.com/soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="SoireeWeb on Facebook">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="SoireeWeb on Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="SoireeWeb on TikTok">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.19a8.16 8.16 0 0 0 4.77 1.52V7.27a4.85 4.85 0 0 1-1-.58z"/></svg>
+              </a>
+              <a href="https://pinterest.com/soireeweb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="SoireeWeb on Pinterest">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="footer-heading">Quick Links</h3>
+            <nav aria-label="Footer quick links">
+              <a href="index.html"        class="footer-link">Home</a>
+              <a href="about.html"        class="footer-link">About Us</a>
+              <a href="services.html"     class="footer-link">Services</a>
+              <a href="packages.html"     class="footer-link">Packages</a>
+              <a href="portfolio.html"    class="footer-link">Portfolio</a>
+              <a href="testimonials.html" class="footer-link">Testimonials</a>
+              <a href="faq.html"          class="footer-link">FAQ</a>
+              <a href="contact.html"      class="footer-link">Contact Us</a>
+            </nav>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h3 class="footer-heading">Our Services</h3>
+            <nav aria-label="Footer services links">
+              <a href="services.html" class="footer-link">Full Wedding Planning</a>
+              <a href="services.html" class="footer-link">Partial Planning</a>
+              <a href="services.html" class="footer-link">Day-Of Coordination</a>
+              <a href="services.html" class="footer-link">Event Styling</a>
+              <a href="services.html" class="footer-link">Vendor Coordination</a>
+              <a href="packages.html" class="footer-link">View Packages</a>
+            </nav>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h3 class="footer-heading">Get In Touch</h3>
+            <address style="font-style:normal;">
+              <div class="footer-contact-item">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>123 Elegance Avenue, BGC<br />Taguig, Metro Manila 1634</span>
+              </div>
+              <div class="footer-contact-item">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+639175550123">+63 917 555 0123</a>
+              </div>
+              <div class="footer-contact-item">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:hello@soireeweb.com">hello@soireeweb.com</a>
+              </div>
+              <div class="footer-contact-item">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Mon–Sat: 9:00 AM – 6:00 PM</span>
+              </div>
+            </address>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom py-6">
+      <div class="container">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p class="text-sm" style="color:rgba(255,255,255,0.4);">
+            &copy; <span id="footer-year"></span> SoireeWeb. All rights reserved. Crafted with 💛 in the Philippines.
+          </p>
+          <div class="flex gap-6">
+            <a href="#" class="footer-link text-xs">Privacy Policy</a>
+            <a href="#" class="footer-link text-xs">Terms of Service</a>
+            <a href="sitemap.xml" class="footer-link text-xs">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close photo viewer">&times;</button>
+    <button class="lightbox-nav" id="lightbox-prev" aria-label="Previous photo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="Wedding photo" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-nav" id="lightbox-next" aria-label="Next photo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script>
+    // Set footer year
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
